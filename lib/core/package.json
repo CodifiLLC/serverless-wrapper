@@ -1,0 +1,7 @@
+{
+  "name": "@serverless-wrapper/core",
+  "main": "index.mjs",
+  "dependencies": {
+    "yaml": "^2.3.3"
+  }
+}

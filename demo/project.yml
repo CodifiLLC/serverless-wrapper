@@ -1,0 +1,18 @@
+parameters: {}
+environment:
+  DB_NAME: test
+  DB_USERNAME: tester
+  DB_PASSWORD: password
+  DB_HOST: localhost
+packages:
+    - name: test
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: hello
+          environment: {}
+        - name: health
+          environment: {}
+        - name: binary
+          environment: {}

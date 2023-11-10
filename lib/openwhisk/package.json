@@ -1,0 +1,6 @@
+{
+  "name": "@serverless-wrapper/openwhisk",
+  "dependencies": {
+    "@serverless-wrapper/core": "file:../core"
+  }
+}
