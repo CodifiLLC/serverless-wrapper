@@ -4,8 +4,12 @@ environment:
   DB_USERNAME: tester
   DB_PASSWORD: password
   DB_HOST: localhost
+middleware:
+  - path: middleware/auth.mjs
+    type: authorization
 packages:
     - name: test
+      path: packages
       environment: {}
       parameters: {}
       annotations: {}
