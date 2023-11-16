@@ -15,6 +15,7 @@ packages:
       annotations: {}
       functions:
         - name: hello
+          entry: index.mjs
           environment: {}
         - name: health
           environment: {}

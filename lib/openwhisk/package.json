@@ -1,6 +1,8 @@
 {
   "name": "@serverless-wrapper/openwhisk",
   "dependencies": {
-    "@serverless-wrapper/core": "file:../core"
+    "@serverless-wrapper/core": "file:../core",
+    "@serverless-wrapper/parser": "file:../parser",
+    "archiver": "^6.0.1"
   }
 }

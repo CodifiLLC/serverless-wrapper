@@ -3,6 +3,7 @@
   "main": "express-build.mjs",
   "dependencies": {
     "@serverless-wrapper/core": "file:../core",
+    "@serverless-wrapper/parser": "file:../parser",
     "express": "^4.18.2"
   }
 }
