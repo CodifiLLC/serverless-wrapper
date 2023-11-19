@@ -1,10 +1,12 @@
 {
   "name": "serverless-wrapper-demo",
   "scripts": {
-    "run:express": ""
+    "express": "node ./node_modules/@serverless-wrapper/express"
   },
   "dependencies": {
     "@serverless-wrapper/core": "file:../lib/core",
+    "@serverless-wrapper/express": "file:../lib/express",
+    "@serverless-wrapper/parser": "file:../lib/parser",
     "serverless-wrapper-lib": "file:lib"
   }
 }

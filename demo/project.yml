@@ -1,3 +1,18 @@
+default_middleware: &default_middleware
+  - path: middleware/logging.mjs
+default_cors_origins: &cors_origins
+  - http://localhost:3000
+default_cors_methods: &cors_methods
+  - GET
+  - POST
+default_cors_headers: &cors_headers
+  - Authorization
+default_cors: &cors
+  origins: *cors_origins
+  methods: *cors_methods
+  headers: *cors_headers
+
+
 parameters: {}
 environment:
   DB_NAME: test
@@ -5,19 +20,35 @@ environment:
   DB_PASSWORD: password
   DB_HOST: localhost
 middleware:
-  - path: middleware/auth.mjs
-    type: authorization
+  *default_middleware
+cors: *cors
 packages:
     - name: test
       path: packages
       environment: {}
       parameters: {}
-      annotations: {}
       functions:
         - name: hello
           entry: index.mjs
-          environment: {}
+          environment:
+            TEST: face
+          middleware:
+            - path: middleware/altauth.mjs
+              type: authorization
         - name: health
           environment: {}
+    - name: authenticated
+      path: authed
+      environment:
+        FOO: bar
+      middleware:
+        - path: middleware/auth.mjs
+          type: authorization
+      functions:
         - name: binary
-          environment: {}
+          environment:
+            IS_BINARY: true
+          middleware:
+            - path: middleware/altauth.mjs
+              type: authorization
+

@@ -1,6 +1,6 @@
 {
   "name": "@serverless-wrapper/express",
-  "main": "express-build.mjs",
+  "main": "index.mjs",
   "dependencies": {
     "@serverless-wrapper/core": "file:../core",
     "@serverless-wrapper/parser": "file:../parser",

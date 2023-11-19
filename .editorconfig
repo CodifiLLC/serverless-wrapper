@@ -1,0 +1,9 @@
+root = true
+
+[*]
+indent_style = tab
+trim_trailing_whitespace = true
+
+[*.{yml,yaml}]
+indent_style = space
+indent_width = 2
