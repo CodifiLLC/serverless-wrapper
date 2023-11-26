@@ -1,14 +1,17 @@
 {
   "name": "serverless-wrapper-demo",
+  "main": "do-wrapper.mjs",
   "scripts": {
     "express": "node ./node_modules/@serverless-wrapper/express",
 	"digital-ocean": "node ./node_modules/@serverless-wrapper/digital-ocean"
   },
   "dependencies": {
     "@serverless-wrapper/core": "file:../lib/core",
-    "@serverless-wrapper/digital-ocean": "file:../lib/digital-ocean",
-    "@serverless-wrapper/express": "file:../lib/express",
-    "@serverless-wrapper/parser": "file:../lib/parser",
     "serverless-wrapper-lib": "file:lib"
+  },
+  "devDependencies": {
+	"@serverless-wrapper/digital-ocean": "file:../lib/digital-ocean",
+	"@serverless-wrapper/express": "file:../lib/express",
+	"@serverless-wrapper/parser": "file:../lib/parser"
   }
 }
