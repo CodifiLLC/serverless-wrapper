@@ -3,7 +3,7 @@ import {randomStr} from "serverless-wrapper-lib/test.mjs";
 
 export async function main(wrapper) {
     return ok({
-        params: wrapper.getParams(),
+        params: wrapper.params,
         randomStr: randomStr()
     });
 }

@@ -1,6 +1,5 @@
 {
   "name": "serverless-wrapper-demo",
-  "main": "do-wrapper.mjs",
   "scripts": {
     "express": "node ./node_modules/@serverless-wrapper/express",
 	"digital-ocean": "node ./node_modules/@serverless-wrapper/digital-ocean"
