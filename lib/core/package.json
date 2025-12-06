@@ -1,5 +1,24 @@
 {
   "name": "@serverless-wrapper/core",
   "main": "index.mjs",
-  "dependencies": { }
+  "version": "1.0.0",
+  "description": "Core libraries for serverless wrappers",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodifiLLC/serverless-wrapper.git#main"
+  },
+  "keywords": [
+    "serverless",
+    "js",
+    "javascript"
+  ],
+  "author": "Matthew Dickinson <matt@codifi.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodifiLLC/serverless-wrapper/issues"
+  },
+  "homepage": "https://github.com/CodifiLLC/serverless-wrapper/tree/main#readme"
 }

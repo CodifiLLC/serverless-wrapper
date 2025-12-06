@@ -2,9 +2,31 @@
   "name": "@serverless-wrapper/digital-ocean",
   "main": "index.mjs",
   "dependencies": {
-    "@serverless-wrapper/core": "file:../core",
-    "@serverless-wrapper/parser": "file:../parser",
+    "@serverless-wrapper/core": "1.0.0",
+    "@serverless-wrapper/parser": "1.0.0",
     "archiver": "^6.0.1",
     "yaml": "^2.3.4"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Wrapper used to run serverless functions on Digital Ocean Functions",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodifiLLC/serverless-wrapper.git#main"
+  },
+  "keywords": [
+    "serverless",
+    "digital-ocean",
+    "js",
+    "javascript"
+  ],
+  "author": "Matthew Dickinson <matt@codifi.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodifiLLC/serverless-wrapper/issues"
+  },
+  "homepage": "https://github.com/CodifiLLC/serverless-wrapper/tree/main#readme"
 }

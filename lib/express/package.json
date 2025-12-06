@@ -2,8 +2,30 @@
   "name": "@serverless-wrapper/express",
   "main": "index.mjs",
   "dependencies": {
-    "@serverless-wrapper/core": "file:../core",
-    "@serverless-wrapper/parser": "file:../parser",
+    "@serverless-wrapper/core": "1.0.0",
+    "@serverless-wrapper/parser": "1.0.0",
     "express": "^4.18.2"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Wrapper to run serverless functions with Express server",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodifiLLC/serverless-wrapper.git#main"
+  },
+  "keywords": [
+    "serverless",
+    "express",
+    "js",
+    "javascript"
+  ],
+  "author": "Matthew Dickinson <matt@codifi.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodifiLLC/serverless-wrapper/issues"
+  },
+  "homepage": "https://github.com/CodifiLLC/serverless-wrapper/tree/main#readme"
 }
