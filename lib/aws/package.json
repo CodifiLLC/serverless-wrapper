@@ -1,0 +1,32 @@
+{
+  "name": "@serverless-wrapper/aws-lambda",
+  "main": "index.mjs",
+  "dependencies": {
+    "@pulumi/aws": "^7.15.0",
+    "@serverless-wrapper/core": "1.0.0",
+    "@serverless-wrapper/parser": "1.0.0",
+    "archiver": "^6.0.1"
+  },
+  "version": "0.9.0",
+  "description": "Wrapper used to run serverless functions on AWS Lambda",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodifiLLC/serverless-wrapper.git#main"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "lambda",
+    "js",
+    "javascript"
+  ],
+  "author": "Matthew Dickinson <matt@codifi.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodifiLLC/serverless-wrapper/issues"
+  },
+  "homepage": "https://github.com/CodifiLLC/serverless-wrapper/tree/main#readme"
+}

@@ -2,15 +2,17 @@
   "name": "serverless-wrapper-demo",
   "scripts": {
     "express": "node ./node_modules/@serverless-wrapper/express",
-	"digital-ocean": "node ./node_modules/@serverless-wrapper/digital-ocean"
+	  "digital-ocean": "node ./node_modules/@serverless-wrapper/digital-ocean",
+	  "aws-monolith": "node ./node_modules/@serverless-wrapper/aws"
   },
   "dependencies": {
-    "@serverless-wrapper/core": "file:../lib/core",
+    "@serverless-wrapper/core": "1.0.0",
     "serverless-wrapper-lib": "file:lib"
   },
   "devDependencies": {
-	"@serverless-wrapper/digital-ocean": "file:../lib/digital-ocean",
-	"@serverless-wrapper/express": "file:../lib/express",
-	"@serverless-wrapper/parser": "file:../lib/parser"
+		"@serverless-wrapper/aws": "file:../lib/aws",
+		"@serverless-wrapper/digital-ocean": "file:../lib/digital-ocean",
+		"@serverless-wrapper/express": "file:../lib/express",
+		"@serverless-wrapper/parser": "file:../lib/parser"
   }
 }
