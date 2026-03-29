@@ -6,7 +6,7 @@
 	  "aws-monolith": "node ./node_modules/@serverless-wrapper/aws"
   },
   "dependencies": {
-    "@serverless-wrapper/core": "1.0.0",
+    "@serverless-wrapper/core": "1.0.1",
     "serverless-wrapper-lib": "file:lib"
   },
   "devDependencies": {

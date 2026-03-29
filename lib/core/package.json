@@ -1,7 +1,7 @@
 {
   "name": "@serverless-wrapper/core",
   "main": "index.mjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core libraries for serverless wrappers",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
