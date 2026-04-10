@@ -8,7 +8,7 @@
     "clean-modules": "^3.1.1",
     "yaml": "^2.3.4"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrapper used to run serverless functions on Digital Ocean Functions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
