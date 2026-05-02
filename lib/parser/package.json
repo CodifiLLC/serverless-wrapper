@@ -4,7 +4,7 @@
   "dependencies": {
     "yaml": "^2.3.3"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Base libraries to parse configurations for projects",
   "devDependencies": {},
   "scripts": {
